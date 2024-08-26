@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="calculadora.php" method="post">
+    <fieldset>
+      <legend>Calculadora Interativa</legend>
+      <div>
+        <span>Casos de teste</span><br>
+        <input type="number" name="n" id="n">
+      </div>
+      <br>
+      <div>
+        <label for="x">X:</label><br>
+        <input type="number" name="x" id="x">
+      </div>
+      <br>
+      <div>
+        <label for="y">Y:</label><br>
+        <input type="number" name="y" id="y">
+      </div>
+      <br>
+      <div>
+        <!-- <span>Adição</span> -->
+        <input type="radio" name="op" id="op" value="op-soma">
+        <span>Adição</span><br>
+        <input type="radio" name="op" id="op" value="op-sub">
+        <span>Subtração</span><br>
+        <input type="radio" name="op" id="op" value="op-multi">
+        <span>Multiplicação</span><br>
+        <input type="radio" name="op" id="op" value="op-div">
+        <span>Divisão</span><br>
+      </div>
+      <br>
+      <div>
+        <button type="submit">Calcular ></button>
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
